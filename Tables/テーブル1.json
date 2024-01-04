@@ -1,0 +1,149 @@
+{
+  "Name": "テーブル1",
+  "FlowProcess": {
+    "IsEnabled": true,
+    "FlowStates": [
+      {
+        "Id": "9b894714-29b4-4b4a-8d36-c84a7fc5eb88",
+        "StateName": "新規"
+      },
+      {
+        "Id": "acda58cd-62e1-40c3-ad9b-9c1a596a81fd",
+        "StateName": "申請中"
+      },
+      {
+        "Id": "d250de54-3ba8-402c-80b3-1e14160cc9d8",
+        "StateName": "承認済み"
+      }
+    ],
+    "FlowPaths": [
+      {
+        "StartState": {
+          "Id": "9b894714-29b4-4b4a-8d36-c84a7fc5eb88",
+          "StateName": "新規"
+        },
+        "Action": {
+          "ActionName": "提出",
+          "GUID": "b8095dd4-5af4-4948-a872-651587bbf72f"
+        },
+        "ToState": {
+          "Id": "acda58cd-62e1-40c3-ad9b-9c1a596a81fd",
+          "StateName": "申請中"
+        },
+        "Assignees": [
+          {
+            "FlowProcessRoleType": 5,
+            "Name": ""
+          }
+        ],
+        "Errors": []
+      },
+      {
+        "StartState": {
+          "Id": "acda58cd-62e1-40c3-ad9b-9c1a596a81fd",
+          "StateName": "申請中"
+        },
+        "Action": {
+          "ActionName": "承認",
+          "GUID": "be7ce656-0e24-420d-9a70-6470e5f05b18"
+        },
+        "ToState": {
+          "Id": "d250de54-3ba8-402c-80b3-1e14160cc9d8",
+          "StateName": "承認済み"
+        },
+        "Assignees": [
+          {
+            "FlowProcessRoleType": 5,
+            "Name": ""
+          }
+        ],
+        "Errors": []
+      },
+      {
+        "StartState": {
+          "Id": "acda58cd-62e1-40c3-ad9b-9c1a596a81fd",
+          "StateName": "申請中"
+        },
+        "Action": {
+          "ActionName": "却下",
+          "GUID": "16deda6c-dbd1-44a1-bb94-b31b12e5c10b"
+        },
+        "ToState": {
+          "Id": "9b894714-29b4-4b4a-8d36-c84a7fc5eb88",
+          "StateName": "新規"
+        },
+        "Assignees": [
+          {
+            "FlowProcessRoleType": 5,
+            "Name": ""
+          }
+        ],
+        "Errors": []
+      }
+    ]
+  },
+  "Columns": [
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "Required": true,
+      "Unique": true,
+      "AutoIncrement": true,
+      "DatabaseColumnType": "System.Int64",
+      "MaxLength": -1,
+      "Name": "ID",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "Name": "Name",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "Name": "Type",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "Name": "Count",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "Name": "FGC_State",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "Name": "FGC_AssignTo",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.UserExtraBingingColumnSaveData, ServerDesignerCommon",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Name": "FGC_Creator"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.DateExtraBingingColumnSaveData, ServerDesignerCommon",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Name": "FGC_CreateDate"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.UserExtraBingingColumnSaveData, ServerDesignerCommon",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Name": "FGC_LastModifier"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.DateExtraBingingColumnSaveData, ServerDesignerCommon",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Name": "FGC_LastModifyDate"
+    }
+  ],
+  "PrimaryKey": [
+    "ID"
+  ],
+  "Relations": [],
+  "Indexes": []
+}

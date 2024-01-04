@@ -1,0 +1,221 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "32": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 43.0
+        }
+      },
+      "35": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 38.0
+        }
+      }
+    },
+    "Count": 60
+  },
+  "Values": {
+    "3,30": "删除",
+    "3,33": "编辑"
+  },
+  "AttachInfos": {
+    "2,2": {
+      "ListViewInfo": {
+        "Name": "リストビュー1",
+        "TableName": "テーブル1",
+        "RowIndex": 2,
+        "ColumnIndex": 2,
+        "RowCount": 12,
+        "ColumnCount": 34,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "AllowEditInListview": true,
+        "ShowDeleteButton": true,
+        "ColumnOperation": 2
+      }
+    },
+    "3,2": {
+      "NameUsedInJavaScript": "ID",
+      "BindingInfo": {
+        "TableName": "テーブル1",
+        "ColumnName": "ID",
+        "GUID": "853210ce-6f02-43d1-bf19-1cda5fb04456"
+      }
+    },
+    "3,6": {
+      "NameUsedInJavaScript": "Name",
+      "BindingInfo": {
+        "TableName": "テーブル1",
+        "ColumnName": "Name",
+        "GUID": "3d771ad2-f027-4138-a78c-41325e8f9daf"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ]
+      }
+    },
+    "3,11": {
+      "NameUsedInJavaScript": "Type",
+      "BindingInfo": {
+        "TableName": "テーブル1",
+        "ColumnName": "Type",
+        "GUID": "35c6035d-c687-4a0b-b4ec-cc6bd6559498"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ]
+      }
+    },
+    "3,16": {
+      "NameUsedInJavaScript": "Count",
+      "BindingInfo": {
+        "TableName": "テーブル1",
+        "ColumnName": "Count",
+        "GUID": "cfbdeafc-65d6-4e09-835c-e06f152d62f8"
+      },
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon"
+      }
+    },
+    "3,20": {
+      "NameUsedInJavaScript": "状態",
+      "BindingInfo": {
+        "TableName": "テーブル1",
+        "ColumnName": "FGC_State",
+        "GUID": "6d95575c-aa35-49b6-b459-e7fec377a983"
+      }
+    },
+    "3,25": {
+      "NameUsedInJavaScript": "担当者",
+      "BindingInfo": {
+        "TableName": "テーブル1",
+        "ColumnName": "FGC_AssignTo",
+        "GUID": "7617e3b0-e5e6-410e-a94f-91132807e12f"
+      }
+    },
+    "3,30": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "Text": "删除",
+        "ClickMode": 1
+      }
+    },
+    "3,33": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "编辑",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "15,2": {
+      "CellType": {
+        "$type": "Forguncy.ProcessBarCellType, ServerDesignerCommon",
+        "TableName": "テーブル1",
+        "ShowCreateBy": true,
+        "ShowModifyBy": true,
+        "DesignTimeShowState": {
+          "TableName": "テーブル1",
+          "SelectedID": "00000000-0000-0000-0000-000000000000"
+        }
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0
+      },
+      {
+        "Formatter": 1
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 1
+      },
+      {
+        "Foreground": 2,
+        "Underline": true
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "@",
+        "Blue"
+      ]
+    },
+    "CellStyles": {
+      "2,11": 0,
+      "2,16": 0,
+      "2,20": 0,
+      "2,25": 0,
+      "3,6": 1,
+      "3,11": 2,
+      "3,16": 0,
+      "3,20": 0,
+      "3,25": 0,
+      "3,30": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "3,2,1,4",
+    "3,20,1,5",
+    "3,25,1,5",
+    "15,2,8,28",
+    "3,6,1,5",
+    "3,11,1,5",
+    "3,16,1,4",
+    "4,2,10,34",
+    "3,30,1,3",
+    "3,33,1,3",
+    "2,2,1,4",
+    "2,6,1,5",
+    "2,11,1,5",
+    "2,16,1,4",
+    "2,20,1,5",
+    "2,25,1,5",
+    "2,30,1,3",
+    "2,33,1,3"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "EnableTabIndex": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//rnb3P6CAD3OvzXWaZgTr9M0Df7ZKVe5lutS7mWXW6bnaqD85WSVJV+vVjjz6zHGgUWd1iilvjx/MYT06jYRZ/BVmvFyLAExxZyRvzUHplCYGPzFc2jtBmzwLd1JfA3DiT/uSPHNt2+yFg2Amw84PDfb8pCo4yzrCnzPx0v5XhNxlI7F/mqpEl9OSh95pwbT526VGrFXImBy+DEGqCUEAdCSHLUp+FlIU50JIJB2cCXNvvFS3QNdi5c0QlxhubY3+4vLFkVdQTLSxSJ89pE2Nh9oa6vygemCr2k7muYLo8B2M+JpdJ3AgxZ6jzamY68lh2rENw4qSOmU6Tj1dt2uJUbp0UQMU0gqMpafdroN9dyxzByY2GchWcqTdXEO3Thkcbx9gFCU2tOcdKVSPjd5o7XXOl4NTG+EWrJ78oNRpJ2WRC0GN4+yR+jxcMA3Lp+W3Li4kpasGawjVtAOfVLDRBAiVubFTAWZuQVxkTwqdtEi2nZU0y78Rdj4tXmaFVYRJob0VNJOggD/Pkfp5Njc3YahHUNCY2/MB8xDaJbJyHTiJc5PYx83xaykN6/K715NJi1Ix5P+yPbxCOePxiwA5UT17Z8gfdGvzwfy2WZNY0qNIg9YgEEYJmEgKyaDw+sCGxVs+/hotrnIhBFKGEF0Bfsocx8KFUIJ702mNLMIjmgkm4HJOT8vSRhQZJi6SKsUe11QoXyIJqVSjOgGTcerxSWjsnaQi/SNxRmrIqAJ4eperpF/e9vnHb9MwlDmsE0ctGyjojPvlu+Ggw5TbcPSA+kpo4Z6iA1BW+9LypBM3jSY53HDA2FSUpYliTPdIoNMtqc1k0UafyTN0Kc0YdI6RNLgk63mfTKpFxvP7zAcVEuSPnz5jpgkaMgUTFgUe1w7GcSbC/oMuECiV0BQN/VVKFw==|920

@@ -1,0 +1,198 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "1,17": "項目1"
+  },
+  "TimeValues": {
+    "4,1": "17:37:00"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
+        "CellDefaultValue": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=TODAY()"
+        },
+        "DateFormat": "gg ee年MM月dd日",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "TabIndex": 4,
+        "DisableTabOrder": true
+      }
+    },
+    "1,17": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "Items": [
+          {
+            "Value": "項目1",
+            "DisplayValue": "項目1"
+          },
+          {
+            "Value": "項目2",
+            "DisplayValue": "項目2"
+          },
+          {
+            "Value": "項目3",
+            "DisplayValue": "項目3"
+          }
+        ],
+        "CellDefaultValue": "項目1",
+        "TabIndex": 2
+      }
+    },
+    "4,1": {
+      "CellType": {
+        "$type": "Forguncy.TimeCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "CellDefaultValue": {
+          "$type": "Forguncy.TimeObject, ServerDesignerCommon",
+          "Value": "17:37:00"
+        },
+        "TabIndex": 1
+      }
+    },
+    "7,1": {
+      "CellType": {
+        "$type": "Forguncy.RepeaterCellType, ServerDesignerCommon",
+        "TemplatePageName": "09088b0a34b446309f5188b0a66c512",
+        "ListviewName": "リストビュー1",
+        "DisplayMode": 2,
+        "TemplateKey": "_RS_Selectable"
+      }
+    },
+    "31,35": {
+      "ListViewInfo": {
+        "Name": "リストビュー1",
+        "TableName": "汽车销售信息",
+        "RowIndex": 31,
+        "ColumnIndex": 35,
+        "RowCount": 13,
+        "ColumnCount": 24,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "ColumnOperation": 2,
+        "TabIndex": 3
+      }
+    },
+    "32,35": {
+      "NameUsedInJavaScript": "车型",
+      "BindingInfo": {
+        "TableName": "汽车销售信息",
+        "ColumnName": "车型",
+        "GUID": "011f4d30-009e-4002-a755-5c682c9afeb2"
+      }
+    },
+    "32,39": {
+      "NameUsedInJavaScript": "品牌",
+      "BindingInfo": {
+        "TableName": "汽车销售信息",
+        "ColumnName": "品牌",
+        "GUID": "18d4502e-8142-4195-8a32-4dc16da204bb"
+      }
+    },
+    "32,43": {
+      "NameUsedInJavaScript": "企业",
+      "BindingInfo": {
+        "TableName": "汽车销售信息",
+        "ColumnName": "企业",
+        "GUID": "06b52920-3bde-4817-ad04-df4def2c3075"
+      }
+    },
+    "32,47": {
+      "NameUsedInJavaScript": "系别",
+      "BindingInfo": {
+        "TableName": "汽车销售信息",
+        "ColumnName": "系别",
+        "GUID": "e9674669-d07d-4d58-88ef-75eb3c85c09c"
+      }
+    },
+    "32,51": {
+      "NameUsedInJavaScript": "类别",
+      "BindingInfo": {
+        "TableName": "汽车销售信息",
+        "ColumnName": "类别",
+        "GUID": "3ab8a2f4-5f32-4b83-bfa7-493069ae1491"
+      }
+    },
+    "32,55": {
+      "NameUsedInJavaScript": "_2015销量",
+      "BindingInfo": {
+        "TableName": "汽车销售信息",
+        "ColumnName": "_2015销量",
+        "GUID": "c85687f9-6da0-46f6-925d-0e3e377129ce"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "HorizontalAlignment": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Center",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "7,1": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "33,35,11,24",
+    "32,35,1,4",
+    "32,39,1,4",
+    "32,43,1,4",
+    "32,47,1,4",
+    "32,51,1,4",
+    "32,55,1,4",
+    "1,1,2,12",
+    "4,1,2,12",
+    "1,17,2,13",
+    "7,1,22,57",
+    "31,35,1,4",
+    "31,39,1,4",
+    "31,43,1,4",
+    "31,47,1,4",
+    "31,51,1,4",
+    "31,55,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "EnableTabIndex": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//sd5wPV9abI/6TCmhdporHYMWk4HG5A69GCiAFbn8kWCrZz7LA3su6RWOwpKtLNsJeuv1cYu6pR9UmJUHXJ9A9k/GENLkXBnL82EAFjA5Sn/+kq5b9vabzTjf892sE/lwVjPkQBSqnR9q0pAwyHA4k6cUOt9XY6quJdr+YLPuitynDTYTtEtcZ+hy1mGlTuXpI1f/HiyQSiJYMNKgaR+YKfu+fdfx+3EIlpltdo76UrgA9tnst7mqs4k4Q0wOn6djBHl9O+ZPSqF5SzYOzWUxpvA3pBb1saZs4y7hTm20QDmtogdkgluMy0jJI5CLZuuRmpKfB8LM+CuwICMA7mQwh0Hfshfdfl+ktHhz8C8s+iqiAxo/Y/Ryg4g5W4GbccOvR7ETIHJHjZkC+IhCtwdGDBGZH1V3fjHE61OYix6vCbYXEZ7dIMK/pIys/uy/yS6b1MLaog9aFWEvDyBFQlXfIbl9HEg1FxfvZoze5HomEG26UFIdw4A/sLsMAI1bz9iygkEKVnfEyxNsusMbqA4enu1/JMLRVh2GedvNjf+Kk0SFc2ZnbmflT6jvFrYYrAkc/O571ArcO0sYWpuj14fC75QaL3X3taCzUrzuwhZaVK1MuwRZ0YC+cdV1oeC1VSbKgkj/KIl+tiD8aKy/zcmZAFpwT/m+aSbHwAj1btNKbvpcYz9xEKsd1YrMHTA6ouaZ9HIMKuezTvKfDCNLLyFQzSu0oNCyq75zAK27qQ9z0jE2thNEzszo5YVAusfpsDMkk8yysxHHZsCvTKoIsaM71Ulnp7BHrrwnWNPay66kS4zkMvfxjLGdoZCnoGrXt43/oxY/daNBcLRSe9QXO8s6HBK9J1zCaOD8hNuoCQvna4Zk2GjEJXD8XOiSDtqszcCpZ01Svk50AvVs8iXebEkT6g==|920

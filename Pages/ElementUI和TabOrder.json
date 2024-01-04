@@ -1,0 +1,136 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "0,1": "Progress",
+    "1,1": 56,
+    "1,30": "*Element UI下的单元格类型不支持tab key获取焦点",
+    "6,18": "homepage/promotion management/promotion list/promotion detail"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "ElementUI.ProgressCellType, ElementUI",
+        "CommandList": [],
+        "color": "Accent 1"
+      }
+    },
+    "6,1": {
+      "CellType": {
+        "$type": "ElementUI.TimelineCellType, ElementUI",
+        "options": [
+          {
+            "content": "Activity start",
+            "timestamp": "2018-04-15"
+          },
+          {
+            "content": "Approved",
+            "timestamp": "2018-04-13"
+          },
+          {
+            "content": "Create Success",
+            "timestamp": "2018-04-11"
+          }
+        ],
+        "sort": "default",
+        "NodeSize": "normal",
+        "format": "yyyy-MM-dd"
+      }
+    },
+    "6,18": {
+      "CellType": {
+        "$type": "ElementUI.BreadcrumbCellType, ElementUI",
+        "DefaultValue": "homepage/promotion management/promotion list/promotion detail",
+        "separator": "/"
+      }
+    },
+    "10,18": {
+      "CellType": {
+        "$type": "ElementUI.StepsCellType, ElementUI",
+        "CommandList": [],
+        "options": [
+          {
+            "value": "1",
+            "title": "Step1",
+            "description": "The description of step1"
+          },
+          {
+            "value": "2",
+            "title": "Step2",
+            "description": "The description of step2"
+          },
+          {
+            "value": "3",
+            "title": "Step3",
+            "description": "The description of step3"
+          }
+        ],
+        "layout": "horizontal"
+      }
+    },
+    "41,54": {
+      "CellType": {
+        "$type": "ElementUI.BackupTopCellType, ElementUI",
+        "VisibilityHeight": 100
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontWeight": 0,
+        "Foreground": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "#FFFF0000",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "1,30": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "1,1,4,24",
+    "6,1,20,15",
+    "6,18,3,33",
+    "10,18,16,33",
+    "41,54,4,5",
+    "1,30,3,22"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser",
+            "FGC_Anonymous"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "EnableTabIndex": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//WDtkICnSyAVcPe8I0uuiMTEh7PqbwYdw3ONeykGhtQX5JDrvvyLjZKF2qh+g9PiXeTEtqot6peCaLskOm9cW3TspASyN/uVeiuJd6/prEl+0SgXcQiEpRNjzKLCEWwfofcwzkKNmYOzZ4v3bX0cM748We01eu0q9UsaeGFYn3QnWDJ8Rr17RJbbe6JnZ2frQeRSzRhDgASQYONlU2uAeT/MWEdpx9nWlucQdmxjPVRE78a6qby6O3cGQ61W9E0ejHl2WpiHeMwpA73l6fRvj5X2KlxptfXuHavnxk5nYlsZjCyJArvZaZ/h7o4wadgXjTjybc0v/zNeuH7QMf0ouF1QmScKi8kJEwivbcqjTsSHWyVLjlktYk5ioipLgFZXLyubeTdjJkwZqQ75/+k8gb51zyG21uQG+ExoNsABHpclpfIgiPoFRsegsCNOIBa/tXd0yrHsxoKUXzLfsHNhc0iPYgUPHoUzKLzKXiQxYFeFoYUxRB1zNsrUTCN/g84fifOebCNyetHjvwL30rIQg0cInyyMpgH6bRq1o0OJPjF4r750lJOZC9wnWISJWd9MnbrBSi9UdGor/67+07QGqCAtNKoEi+NxsZStnFovBw59CrOY6kdwSaIusiHzBz8LExvV+NH6wrj07hX5oDisgcyEUwFaOUl7JcJwTUW0akr314IGRNUjDVwnu16LuQqNIpusW30C8xYBDSe5A2YY+uvd33CCCXRD4ypnYff7M46CDqsgKYjZjVsbhHZRddi2cAzM/Brc5KCMuqT7dO1NAyF+fr6HZID7WQvKh70Knpbx1EUkfl8DqZAU8zlsAtJfmwKiLJs1jKH/1e090t+d8TaJsfiQkRpZXkc9e4CDmhMZZaZTSqFhn25DsEb+BUJRS0Jm40Vk2bmwydmibcJcEzA==|920

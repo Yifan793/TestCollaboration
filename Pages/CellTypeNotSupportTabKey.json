@@ -1,0 +1,370 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "AttachInfos": {
+    "1,24": {
+      "CellType": {
+        "$type": "SignatureCellType.SignatureCellType, SignatureCellType"
+      }
+    },
+    "7,2": {
+      "CellType": {
+        "$type": "Forguncy.RecordNavigationCellType, ServerDesignerCommon",
+        "FirstImage": {
+          "Name": "Arrow/347_move_first.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1"
+        },
+        "LastImage": {
+          "Name": "Arrow/348_move_last.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1"
+        },
+        "PreviousImage": {
+          "Name": "Arrow/349_left_arrow.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1"
+        },
+        "NextImage": {
+          "Name": "Arrow/350_right_arrow.svg",
+          "BuiltIn": true,
+          "Color": "Accent 1"
+        }
+      }
+    },
+    "12,24": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "ClickMode": 1
+      }
+    },
+    "19,1": {
+      "CellType": {
+        "$type": "Forguncy.CustomMenu.ForguncyTreeCellType, Forguncy.CustomMenu",
+        "Items": [
+          {
+            "Value": "ノード1",
+            "Text": "ノード1",
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Value": "ノード1_1",
+                "Text": "ノード1_1",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "ノード1_2",
+                "Text": "ノード1_2",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "Value": "ノード2",
+            "Text": "ノード2",
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Value": "ノード2_1",
+                "Text": "ノード2_1",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "ノード2_2",
+                "Text": "ノード2_2",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "Value": "ノード3",
+            "Text": "ノード3",
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Value": "ノード3_1",
+                "Text": "ノード3_1",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "ノード3_2",
+                "Text": "ノード3_2",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0,
+        "Underline": true
+      },
+      {
+        "FontFamily": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Blue",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "12,24": 0,
+      "20,26": 1,
+      "20,27": 1,
+      "20,28": 1,
+      "20,29": 1,
+      "20,30": 1,
+      "20,31": 1,
+      "20,32": 1,
+      "20,33": 1,
+      "20,34": 1,
+      "20,35": 1,
+      "20,36": 1,
+      "20,37": 1,
+      "20,38": 1,
+      "20,39": 1,
+      "20,40": 1,
+      "20,41": 1,
+      "20,42": 1,
+      "20,43": 1,
+      "20,44": 1,
+      "21,26": 1,
+      "21,27": 1,
+      "21,28": 1,
+      "21,29": 1,
+      "21,30": 1,
+      "21,31": 1,
+      "21,32": 1,
+      "21,33": 1,
+      "21,34": 1,
+      "21,35": 1,
+      "21,36": 1,
+      "21,37": 1,
+      "21,38": 1,
+      "21,39": 1,
+      "21,40": 1,
+      "21,41": 1,
+      "21,42": 1,
+      "21,43": 1,
+      "21,44": 1,
+      "22,26": 1,
+      "22,27": 1,
+      "22,28": 1,
+      "22,29": 1,
+      "22,30": 1,
+      "22,31": 1,
+      "22,32": 1,
+      "22,33": 1,
+      "22,34": 1,
+      "22,35": 1,
+      "22,36": 1,
+      "22,37": 1,
+      "22,38": 1,
+      "22,39": 1,
+      "22,40": 1,
+      "22,41": 1,
+      "22,42": 1,
+      "22,43": 1,
+      "22,44": 1,
+      "23,26": 1,
+      "23,27": 1,
+      "23,28": 1,
+      "23,29": 1,
+      "23,30": 1,
+      "23,31": 1,
+      "23,32": 1,
+      "23,33": 1,
+      "23,34": 1,
+      "23,35": 1,
+      "23,36": 1,
+      "23,37": 1,
+      "23,38": 1,
+      "23,39": 1,
+      "23,40": 1,
+      "23,41": 1,
+      "23,42": 1,
+      "23,43": 1,
+      "23,44": 1,
+      "24,26": 1,
+      "24,27": 1,
+      "24,28": 1,
+      "24,29": 1,
+      "24,30": 1,
+      "24,31": 1,
+      "24,32": 1,
+      "24,33": 1,
+      "24,34": 1,
+      "24,35": 1,
+      "24,36": 1,
+      "24,37": 1,
+      "24,38": 1,
+      "24,39": 1,
+      "24,40": 1,
+      "24,41": 1,
+      "24,42": 1,
+      "24,43": 1,
+      "24,44": 1,
+      "25,26": 1,
+      "25,27": 1,
+      "25,28": 1,
+      "25,29": 1,
+      "25,30": 1,
+      "25,31": 1,
+      "25,32": 1,
+      "25,33": 1,
+      "25,34": 1,
+      "25,35": 1,
+      "25,36": 1,
+      "25,37": 1,
+      "25,38": 1,
+      "25,39": 1,
+      "25,40": 1,
+      "25,41": 1,
+      "25,42": 1,
+      "25,43": 1,
+      "25,44": 1,
+      "26,26": 1,
+      "26,27": 1,
+      "26,28": 1,
+      "26,29": 1,
+      "26,30": 1,
+      "26,31": 1,
+      "26,32": 1,
+      "26,33": 1,
+      "26,34": 1,
+      "26,35": 1,
+      "26,36": 1,
+      "26,37": 1,
+      "26,38": 1,
+      "26,39": 1,
+      "26,40": 1,
+      "26,41": 1,
+      "26,42": 1,
+      "26,43": 1,
+      "26,44": 1,
+      "27,26": 1,
+      "27,27": 1,
+      "27,28": 1,
+      "27,29": 1,
+      "27,30": 1,
+      "27,31": 1,
+      "27,32": 1,
+      "27,33": 1,
+      "27,34": 1,
+      "27,35": 1,
+      "27,36": 1,
+      "27,37": 1,
+      "27,38": 1,
+      "27,39": 1,
+      "27,40": 1,
+      "27,41": 1,
+      "27,42": 1,
+      "27,43": 1,
+      "27,44": 1,
+      "28,26": 1,
+      "28,27": 1,
+      "28,28": 1,
+      "28,29": 1,
+      "28,30": 1,
+      "28,31": 1,
+      "28,32": 1,
+      "28,33": 1,
+      "28,34": 1,
+      "28,35": 1,
+      "28,36": 1,
+      "28,37": 1,
+      "28,38": 1,
+      "28,39": 1,
+      "28,40": 1,
+      "28,41": 1,
+      "28,42": 1,
+      "28,43": 1,
+      "28,44": 1,
+      "29,26": 1,
+      "29,27": 1,
+      "29,28": 1,
+      "29,29": 1,
+      "29,30": 1,
+      "29,31": 1,
+      "29,32": 1,
+      "29,33": 1,
+      "29,34": 1,
+      "29,35": 1,
+      "29,36": 1,
+      "29,37": 1,
+      "29,38": 1,
+      "29,39": 1,
+      "29,40": 1,
+      "29,41": 1,
+      "29,42": 1,
+      "29,43": 1,
+      "29,44": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "1,2,5,21",
+    "7,2,6,21",
+    "14,2,4,21",
+    "19,1,9,21",
+    "1,24,10,28",
+    "12,24,7,16",
+    "20,26,10,19"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser",
+            "FGC_Anonymous"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "EnableTabIndex": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//84bvGG7IcLhDaVEKOKmlDfynZayuwDqtmKIyzLI6N+0zqTKf5lVKV7YVwQRZhlvyhDl/HFiSRG7NaUx4Sa6m4bwrf0AlZh76uy4uRMKvM7sqsVpcUmTQiSkvtKLiSXG0atDqcxQy7eUZJsFAs7vnrgyY4izzVHRF6HEvyyhCyflvWlh10MUoNbwDMXaH+os+MxIxgJqY8g5H2IZ8Ovh0jnKe6lTOA5CFzFW1ya7UY2GQc/qaOTX55CqmHZA5cZxtjpzG4cTRiTKstpEhjlS9jRDDUjAhGi2ZtURnHNPDD0KjyOepgMBePmqdYurmHv1YF3iEwha1wiJ/on79WizoOJQNi8BAxXDmBw9euGkeVEsuhvy611ALdRlOYXVkDzqczA1Fzngfn7jPj4MiXR5jF83gm7hP+oJEyQPExawX/TgLeC2YE9KDfv4hGO31jDrJZY3RLr5J/4+cataOGKpJi/R6H9K2df/CUA+MLEzsKSzCagXjhuLP+O1LH2nHYMLUCk2DxPEFyvN+s5rN7rKNw6HXlV8cAOPu/rM4zBriTBa9ZncCCUizD4FFnHQ1NJdr5JNKld1gNW/maOHITFK/xXsBwH/QCQ1HYhYjZjDcgiZ/NXDZQOT2DcwmmeAmapSpx3PIZvVVKZVknnT3agnNAC3KkJHriaIoDhYvLCUh8ySR7oBJJ8nzayUrnwVw5T3xVc79iv+xeD544vnq+Cthsa6Set0WFIuJ2oyjaTvdznkAiyNFeAFIT1zWU5wYeO5yRhQQSYeY2nXQMAjybk3g1i1u1ggb+2f7MjuuW7LBrwo1nIfVUsbSHuXBbaPs+t8r6Iv3uiBLkG8OJF7qf6STtRHQ3eqd9t0q7/6MyRyOAF5DWLkfvtrv0oDsRb0MAf7cAOWc9ymyKI8BuBYyFMy2lA==|920

@@ -1,0 +1,327 @@
+{
+  "Rows": {
+    "Count": 60
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "1,1": "*支持cell type 的单元格类型",
+    "3,1": "Button",
+    "3,13": "www.baidu.com",
+    "12,1": "*表单单元格类型",
+    "13,1": "Textbox",
+    "13,16": "MultiLine",
+    "13,37": "Checkbox",
+    "13,47": "Combo",
+    "14,1": "Forguncy",
+    "14,16": "Tab key get focus",
+    "14,37": true,
+    "14,47": "項目1",
+    "17,1": "Date",
+    "17,37": "user selector",
+    "18,37": "Administrator",
+    "20,37": "reading Textbox",
+    "21,1": "Time",
+    "21,16": "Number",
+    "22,16": 1200,
+    "25,1": "Radio group",
+    "29,1": "Checkbox group"
+  },
+  "TimeValues": {
+    "22,1": "16:19:00"
+  },
+  "AttachInfos": {
+    "3,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "Button",
+        "TemplateKey": "_RS_Normal_Style2",
+        "TabIndex": 2
+      }
+    },
+    "3,13": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "Text": "www.baidu.com",
+        "ClickMode": 1,
+        "TemplateKey": "_RS_Normal2",
+        "TabIndex": 3
+      }
+    },
+    "3,25": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "street.jpg"
+      }
+    },
+    "3,35": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "ShowCircleUserPicture": true,
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        },
+        "TabIndex": 1,
+        "DisableTabOrder": true
+      }
+    },
+    "14,1": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "IsSelectAllOnFocus": true,
+        "CellDefaultValue": "Forguncy"
+      }
+    },
+    "14,16": {
+      "CellType": {
+        "$type": "Forguncy.MultilineTextBox, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "IsSelectAllOnFocus": true,
+        "CellDefaultValue": "Tab key get focus",
+        "DisableTabOrder": true
+      }
+    },
+    "14,37": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "CellDefaultValue": true,
+        "Caption": "IsChecked",
+        "Style": 1
+      }
+    },
+    "14,47": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "Items": [
+          {
+            "Value": "項目1",
+            "DisplayValue": "項目1"
+          },
+          {
+            "Value": "項目2",
+            "DisplayValue": "項目2"
+          },
+          {
+            "Value": "項目3",
+            "DisplayValue": "項目3"
+          }
+        ],
+        "CellDefaultValue": "項目1"
+      }
+    },
+    "18,1": {
+      "CellType": {
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
+        "CellDefaultValue": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=TODAY()"
+        },
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "18,37": {
+      "CellType": {
+        "$type": "Forguncy.UserCellType, ServerDesignerCommon",
+        "Columns": 1,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "CellDefaultValue": "Administrator"
+      }
+    },
+    "21,37": {
+      "CellType": {
+        "$type": "Forguncy.ReadingTextCellType, ServerDesignerCommon",
+        "Target": {
+          "SerializeProperty": "=subpageandmasterpage!B15"
+        },
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "22,1": {
+      "CellType": {
+        "$type": "Forguncy.TimeCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "CellDefaultValue": {
+          "$type": "Forguncy.TimeObject, ServerDesignerCommon",
+          "Value": "16:19:00"
+        }
+      }
+    },
+    "22,16": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "IsSelectAllOnFocus": true,
+        "CellDefaultValue": 1200
+      }
+    },
+    "26,1": {
+      "CellType": {
+        "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
+        "Style": 1,
+        "Items": [
+          {
+            "Value": "Forguncy",
+            "DisplayValue": "Forguncy"
+          },
+          {
+            "Value": "SpreadJs",
+            "DisplayValue": "SpreadJs"
+          },
+          {
+            "Value": "Active Report",
+            "DisplayValue": "Active Report"
+          }
+        ],
+        "AddOtherItem": true
+      }
+    },
+    "26,30": {
+      "CellType": {
+        "$type": "Forguncy.AttachmentCelltype, ServerDesignerCommon",
+        "UploadLimit": {
+          "ExtensionFilter": ".jpg, .jpeg, .png, .gif, .bmp, .xlsx, .docx, .doc, .xls, .pdf"
+        },
+        "TemplateKey": "_RS_Normal_Style2",
+        "DisableTabOrder": true
+      }
+    },
+    "30,1": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxGroupCellType, ServerDesignerCommon",
+        "Style": 1,
+        "Items": [
+          {
+            "Value": "項目1",
+            "DisplayValue": "項目1"
+          },
+          {
+            "Value": "項目2",
+            "DisplayValue": "項目2"
+          },
+          {
+            "Value": "項目3",
+            "DisplayValue": "項目3"
+          }
+        ],
+        "AddOtherItem": true
+      }
+    },
+    "39,1": {
+      "CellType": {
+        "$type": "HtmlRichEditor.HtmlRichEditor, HtmlRichEditor",
+        "DisableTabOrder": true
+      }
+    },
+    "39,30": {
+      "CellType": {
+        "$type": "TinyRichEditor.TinyRichEditorCellType, TinyRichEditor",
+        "UIPermissions": [
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "DisableTabOrder": true
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Underline": true
+      },
+      {
+        "Formatter": 0
+      },
+      {
+        "Formatter": 0,
+        "VerticalAlignment": 1,
+        "WordWrap": true
+      },
+      {
+        "FontFamily": 2
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "@",
+        "Top",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "3,13": 0,
+      "14,1": 1,
+      "14,16": 2,
+      "21,37": 1,
+      "26,30": 0,
+      "39,1": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "3,1,2,9",
+    "3,13,2,11",
+    "3,25,7,8",
+    "3,35,2,12",
+    "14,1,2,12",
+    "14,16,7,19",
+    "14,37,2,8",
+    "14,47,2,8",
+    "18,1,2,11",
+    "22,1,2,11",
+    "18,37,2,12",
+    "21,37,2,12",
+    "30,1,2,22",
+    "26,1,2,27",
+    "22,16,2,11",
+    "26,30,11,25",
+    "39,1,20,28",
+    "39,30,20,29"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "FGC_ユーザーマスターページ",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser",
+            "FGC_Anonymous"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "EnableTabIndex": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//Dj0zz68f6TRz35OxGLN6wcbbUNq0AmMTDF7unsKnc6vtfYWufyr+3WhJZvsH5lVxgkdqfggHLyQPrmNkUTs/HheD+aXosso8m4/OP6c5oOr/x5ffyXD1XGkBWcm//EbajCZGySZPsnfDoLC1+jKdOW/MXVZ3CFjxaCuGgHcNKDV8SjAkL9HIJiesRVNzt5ExA14tYCOVFCY/jSmE/bdP5JnDdjOHTMsm++mKDPOudO7wVwgrRl4w8fcr0cGHKrH450ssQP3gG0UWWyJsnHvJPzTDNv2MsOfr6V3B1VD7Y0FgjEyAuJ3sLEjipP2+j9yQl63KqY8XN/I3zXw30ko7QG2t00kszdDWhvQU+xE5CqVX9+9NhUf4Z5fYoURM1Ero9FuOx9TcGkZ8y4Q+hN5XYVQgx+cBX7W16cWQiXZrg5pLl5fhGmJQo68omD7xjSVfO690CoSdog15xAS9k9/BfjmLyyRv8QHqK6zeJ/N0Zit5+wjyhAGYHs8sn1DfuGK31EVRi9IA7Vne9Jciz0gTJoTi+h/ZCOUrum91WDmWpi/AIuyvwP/s68L2P+DmrkFJcJ0NruBbhoYuid5aqzNXvG3Rv1Y/RjTDge65OybdxmpEwPYXnGJCxeCGM82jUQVRFvEee90KHuXU6QlMnv527H4U95jY5fpe8KX9DksxVPvteKv/qJh+yy/D6GxE7Q55zQyuHj8e9PnpAV2wAkYXgnizISctynFwDk21d2+OrSsUASrE7JHyNIpqfGHBFa7jmvuPN38Kv3EmAhRP6ImJ3wBYXkPLg0h7jl9Rsy47SVMrKX//2XtvqCepp1KLT7KlqQC7BpyKIiIEs/k7Qc/D10+XeMJwPtGDcQAJpdHJWulQu2KhuBxfk+z3y8Hd5Xil8Q/MLbiEpJJPYrJNsS+TMA==|920

@@ -1,0 +1,304 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "21,47": 12345
+  },
+  "AttachInfos": {
+    "0,0": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "2,2": {
+      "CellType": {
+        "$type": "ImageEditor.ImageEditor, ImageEditor",
+        "Menu": [
+          {},
+          {
+            "Name": 1
+          },
+          {
+            "Name": 2
+          },
+          {
+            "Name": 3
+          },
+          {
+            "Name": 4
+          },
+          {
+            "Name": 5
+          },
+          {
+            "Name": 6
+          }
+        ],
+        "ControlButtons": [
+          {},
+          {
+            "Name": 1
+          },
+          {
+            "Name": 2
+          }
+        ],
+        "DefaultValueSettings": {
+          "DrawThickness": 5,
+          "ShapeThickness": 6,
+          "TextSize": 50,
+          "DrawColor": "Text 1 0",
+          "TextColor": "Text 1 0",
+          "IconColor": "Text 1 0",
+          "ShapeColor": "Text 1 0"
+        },
+        "Clarity": 80.0
+      }
+    },
+    "2,47": {
+      "CellType": {
+        "$type": "CarouselCellType.Carousel, CarouselCellType",
+        "ImageInfos": [
+          {
+            "ImagePath": "fider.jpg",
+            "Caption": "カルーセル1"
+          },
+          {
+            "ImagePath": "street.jpg",
+            "Caption": "カルーセル2"
+          },
+          {
+            "ImagePath": "car.jpg",
+            "Caption": "カルーセル3"
+          }
+        ]
+      }
+    },
+    "10,47": {
+      "CellType": {
+        "$type": "FilePreviewer.FilePreviewer, FilePreviewer",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "UploadLimit": {},
+        "Folder": "%CurrentUser%",
+        "KKFileViewExtensions": "(doc|docx|xls|xlsx|ppt|pptx)"
+      }
+    },
+    "21,47": {
+      "CellType": {
+        "$type": "Forguncy.BarcodeCellType, ServerDesignerCommon"
+      }
+    },
+    "28,2": {
+      "CellType": {
+        "$type": "VideoPlayer.VideoPlayer, VideoPlayer",
+        "VideoInfos": [
+          {
+            "VideoPath": "tinyhtmleditor_saveloadissue.mp4",
+            "Caption": "動画"
+          }
+        ]
+      }
+    },
+    "29,25": {
+      "CellType": {
+        "$type": "VideoPlayer.AudioPlayer, VideoPlayer",
+        "VideoInfos": [
+          {
+            "Caption": "オーディオ"
+          }
+        ]
+      }
+    },
+    "29,51": {
+      "CellType": {
+        "$type": "Forguncy.TabControlCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_NewFashionStyle1",
+        "LazyLoading": true
+      }
+    },
+    "35,40": {
+      "CellType": {
+        "$type": "Forguncy.ContentContainerCellType, ServerDesignerCommon"
+      }
+    },
+    "35,53": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon"
+      }
+    },
+    "41,1": {
+      "CellType": {
+        "$type": "Forguncy.RepeaterCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_Selectable"
+      }
+    },
+    "42,40": {
+      "CellType": {
+        "$type": "TabManager.TabCellType, TabManager"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Formatter": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      },
+      {
+        "HorizontalAlignment": 2
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "@",
+        "black",
+        "Center",
+        "Body"
+      ],
+      "Borders": [
+        {
+          "Color": 1
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "21,47": 1,
+      "21,48": 2,
+      "21,49": 2,
+      "21,50": 2,
+      "21,51": 2,
+      "21,52": 2,
+      "21,53": 2,
+      "21,54": 2,
+      "21,55": 2,
+      "21,56": 2,
+      "21,57": 2,
+      "21,58": 2,
+      "21,59": 3,
+      "22,47": 4,
+      "22,59": 5,
+      "23,47": 4,
+      "23,59": 5,
+      "24,47": 4,
+      "24,59": 5,
+      "25,47": 4,
+      "25,59": 5,
+      "26,47": 4,
+      "26,59": 5,
+      "27,47": 6,
+      "27,48": 7,
+      "27,49": 7,
+      "27,50": 7,
+      "27,51": 7,
+      "27,52": 7,
+      "27,53": 7,
+      "27,54": 7,
+      "27,55": 7,
+      "27,56": 7,
+      "27,57": 7,
+      "27,58": 7,
+      "27,59": 8,
+      "41,1": 9
+    },
+    "SheetStyle": {
+      "FontFamily": 3
+    }
+  },
+  "Spans": [
+    "2,2,25,45",
+    "0,0,2,13",
+    "2,47,8,13",
+    "10,47,11,13",
+    "21,47,7,13",
+    "28,2,13,21",
+    "29,25,4,24",
+    "35,25,8,14",
+    "35,40,6,12",
+    "29,51,5,9",
+    "35,53,7,7",
+    "42,40,3,14",
+    "41,1,4,20"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser",
+            "FGC_Anonymous"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "EnableTabIndex": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//Y/R4hec/4ROxs5oreMggQPCCT7uto9sXpyB1Mioey2633HQzbg/S3C6LvTgsUg1qVa6Knwl+xxm8xCzReXJXUgCzsJcrUQwQUo3QTrvHmo9VLWFJgiVmkcHGKd7+J2EBf1YisroC+a7Bu7dqPvqhErWHVY6t026HvQBJDU09Mwt57EnJJ4eq6Ptpw5yOpdCgy42WPozCMF93ovxCW34FT1paoVDfkYYrgo5JB32QwSWJvRNTqTyQnVgKbt8XtfHxoMdqkqE0iSX0OcYDUwyi6OgtQ9+GzTzHoUME4L2xjsXsx21871PHpiaQ6HsC6dDAgxtIhbTnyNQT6b+AFt4Ri4+kZBU7f4h9wocHb9Hq0Qrw9mTOv3U+z84SMMLaDZ+Iu/zDonVbH+tUuUnd5rIfZtGJpzILkzMliPI6i588ugD41UDVKiFzCscB4kXM5eaZcjatOdOfE36SQGYH7W3yUiDjuznwBVOQwWXNavETFvj47P0QiPA+EVDs9RiNEJPazhuy6946EZ1rbMDmlVkeEPst52fLdwZtE6dJHMtz3Si8xod9NKF5+gvRRJ5ULyD7fd1lpxcXjd2aLdVFFryWiapdmBSn+3Sot8llL+NrcVoymV1VOyg65KSIvDYEqNjdJ7vlxI83FbDPtmtgdrOCdb60CtY8fq9YhzbvnesaZm4zg98c56wW/D0coMOR4wfzPrNKksLO7Fa5I327J6UevbcUBapYG/kwR0G2iU+SqAvgf2B7Gpfv48UW7SZ3TCGPHKAeUApOWjhE4SUMsU2AaVIWfbHi0zHpxkWs0KDvkY4PPJZVq7G1FIXSZphXf+FiyoIvCfPoP6aqhP5Ob+QB+F9abXCwEPWHSjWr/l+2VJTYT3eAxg8zfXHCZqJbwjAtbfFlUtCAguGmjiXsddD7bA==|920

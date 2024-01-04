@@ -1,0 +1,86 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "AttachInfos": {
+    "1,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "1,17": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "5,2": {
+      "CellType": {
+        "$type": "Forguncy.TabControlCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_NewFashionStyle1",
+        "Tabs": [
+          "cellTypeSupportTab",
+          "Basicfunction"
+        ],
+        "LazyLoading": true
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Formatter": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "@",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "1,17": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "1,2,2,11",
+    "1,17,2,13",
+    "5,2,37,56"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser",
+            "FGC_Anonymous"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//1rxkr9t3naIDh/2+g2ibnEHLtrtLZNhZSEaJiSLf1SCoBGlqEjGrypbm6GYJ1LN4dulnVtm/74xVEsURNVd8H4dHgV6svBuhPZelEoEytJbYC3AnvsKGgkuPLXk80fqUP1WpmBolSiryJlB369z9qsy2GRLI0En295fabjcjwvP3pjAdcxEqI37TWQ+g7c/c8m2r+zCztaToS/3GLi1nMVi2bwV02Fd60aLTnTOM2rRQyNLbxQBde8y1OmD2oWP7eArtYuXrCEqPopPLmZ4/Y15oBvDTM3imqq2a5UtMKizOZss4s/dwkwnCd1wKBP1ZPbsVnzD98aq0Xtt81aTEeW96LyECT39u1vz4tiRk1Qlo4A+iAaEPn7d47aVBKhKALzVzh9jWYYG5VnzSv6kAm7M9qwm6xVLgFE8CD3Fv7TDOA7fqxZYJXoejXRp+AoCdARFak/pzdEt12LsqF8DgLnNopMZg+pxfkJyO2NiNzU5EVZOiMw1CXoZnQSinxHjeFLdYCyCJb70J0AS3cN7VicSN8cMXGgCn1KmIjBSWUOBFqjiidbVVmOmPbi7BA5eLVBoPaXhVKi+86DqwKI9mh7u9kcdFp/jQV+ACxCEptOSzuUFbHCA1I/XWNR/u16MVf0rbeWV8JWDdLIdsgvd64KCshIKhGJU3Z9BKARd1cCcYpDBMcXBH9tCrdbr/Ho8tu18GM7cYhFZXz+f4XjZxstvwCE7q4LfhVMv/Ms07YR6j6vtRAwFbVuGsIi9v3mDI1VJtr7Jx6E6fIxLF0hgZelIe0/FpYxpvDLsAOva5HhXmP4KDEyA2mRex0NJ1wYAUwybCduXuOcF7Gg6XBOr5QqdNBFk2/AGDwl/NmkuoXYaTzRhzWzXa0pG0u5DnbKDlaa04s/zuLVYn2DOD/LB3oQ==|920

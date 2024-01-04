@@ -1,0 +1,83 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "AttachInfos": {
+    "1,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_Normal_Style2",
+        "DisableTabOrder": true
+      }
+    },
+    "1,11": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "4,2": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "カスタムセル型1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Formatter": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "@",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "1,11": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "1,2,2,8",
+    "1,11,2,11",
+    "4,2,37,43"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser",
+            "FGC_Anonymous"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "EnableTabIndex": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//4x0EtVHFbOwwUNiuxhL4/xKy299EwfaxGf39eUgOuPOLnbnS0M8KKhbhGmQj6mheO5s8gt2JnmHJ65IR4C7K4IE6UwVirSjOCM8PcaSzzoyZFZWSxZ1jViKOBxR2+r+uPY/s62KvXWXLUovr4VvhfIzhd1qNuiG0usycK1VLK9HCdTUjuflCQ3Ly7Gv/RoiWXkCsPCMxnPuCRWlcxEthTcMq7I2LxjxFWkcuSdewzXtIwml8fMNmH3gW4kg1XaJ8RZfC4eDNpbtEfumcTOOq5AYvrkk6tKJrJ2Q/kySRnwXvkSNz5btGkWcd+KbZi6MTKS+DRPbds7JfcQZs/RBhzkVL5mHwPEor5lX7G4DE/Zp5niH1w6nKd6w1is/h/Ki8/RYcqBXszGCI8g6GthuS/gpc9ig98wmqTNkbLfU7UFBwZONUSgS90zsPwfRkt3C+RjvYND9tTPb6eq2nO5WJFQNuvHMFeDb5No0GQqiR7fGx3hgZXJ+HTEpvw2qgqwRQ34kZBfJgsrZh8Cd3wesPKPlIT2u1SPsznceFbyQmnEFQll0Ydz9bqqarad3WAAXAC4vvrqPAzGLqYsG/HlsAnwA6ST+27wHj/lmxuhGIhsAXmKral3WHsdOgJ4xbGvU9grYtlo/3Pj/dlSjDaNazmZrj50mPCLzOXKbKLHXWnuRqQhaR/E0UHL8dNMQVdvKQIIPD5o96MswoD3JIoukH1zvt2dblgmAbfh5d/GyIWQ0l1Mx1/Cmpl+LTPvGjAJpT+Oi9B6bKBRkzt3K9g6fAfXSNOEwcu3sWM+DtjrLvKE1SaQponMWS3L6OMjRcMYcbatCjrWpjE0Wl1l730dh80Z5w6hC9aKgnKqnn8QGv9xBYa+sJAiacZ7SvhYRElGPshSKBmz77qFROlo5KXTMQLw==|920

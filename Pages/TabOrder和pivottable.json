@@ -1,0 +1,212 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "43": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 106.0
+        }
+      },
+      "44": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 106.0
+        }
+      },
+      "45": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 106.0
+        }
+      }
+    },
+    "Count": 60
+  },
+  "AttachInfos": {
+    "1,2": {
+      "CellType": {
+        "$type": "Forguncy.PivotTableCellType, ServerDesignerCommon",
+        "PivotTableSetting": {
+          "SelectedListViewName": "リストビュー1",
+          "Rows": [
+            {
+              "DatabaseColumnName": "Name",
+              "DisplayName": "Name",
+              "ColumnCell": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=TabOrder和pivottable!AR3"
+              },
+              "BackgroundValue": {}
+            }
+          ],
+          "Cols": [
+            {
+              "DatabaseColumnName": "Type",
+              "DisplayName": "Type",
+              "ColumnCell": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=TabOrder和pivottable!AS3"
+              },
+              "BackgroundValue": {}
+            }
+          ],
+          "Values": [
+            {
+              "DatabaseColumnName": "Count",
+              "DisplayName": "Count",
+              "ColumnCell": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=TabOrder和pivottable!AT3"
+              },
+              "Aggregator": 6,
+              "TotalAggregator": 0,
+              "BackgroundValue": {}
+            }
+          ],
+          "DatabaseColumns": [
+            {
+              "DatabaseColumnName": "Name",
+              "ColumnCell": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=TabOrder和pivottable!AR3"
+              }
+            },
+            {
+              "DatabaseColumnName": "Type",
+              "ColumnCell": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=TabOrder和pivottable!AS3"
+              }
+            },
+            {
+              "DatabaseColumnName": "Count",
+              "ColumnCell": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=TabOrder和pivottable!AT3"
+              }
+            }
+          ],
+          "IsFillFormMode": true,
+          "ForceFrozenRowHeader": true
+        },
+        "EditAndUpdate": true,
+        "PivotTableStyle": {
+          "UseSimpleBar": true
+        },
+        "PivotTableID": "f24bb39a-b72e-47f3-9871-f77b44fb524a",
+        "TemplateKey": "Accent_1_3",
+        "TabIndex": 1
+      }
+    },
+    "1,43": {
+      "ListViewInfo": {
+        "Name": "リストビュー1",
+        "TableName": "テーブル1",
+        "RowIndex": 1,
+        "ColumnIndex": 43,
+        "RowCount": 12,
+        "ColumnCount": 3,
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2",
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "AllowEditInListview": true,
+        "AllowAddNewRow": true,
+        "ShowDeleteButton": true,
+        "ColumnOperation": 2,
+        "TabIndex": 4
+      }
+    },
+    "2,43": {
+      "NameUsedInJavaScript": "Name",
+      "BindingInfo": {
+        "TableName": "テーブル1",
+        "ColumnName": "Name",
+        "GUID": "92e5f487-33f6-4e81-8e23-23bf805a68f6"
+      }
+    },
+    "2,44": {
+      "NameUsedInJavaScript": "Type",
+      "BindingInfo": {
+        "TableName": "テーブル1",
+        "ColumnName": "Type",
+        "GUID": "345dd46f-78c9-4b10-8a34-15c6c537f77a"
+      }
+    },
+    "2,45": {
+      "NameUsedInJavaScript": "Count",
+      "BindingInfo": {
+        "TableName": "テーブル1",
+        "ColumnName": "Count",
+        "GUID": "96a471e6-b446-4419-b01b-14a30f293ca2"
+      }
+    },
+    "16,2": {
+      "CellType": {
+        "$type": "HtmlRichEditor.HtmlRichEditor, HtmlRichEditor",
+        "TabIndex": 2
+      }
+    },
+    "16,35": {
+      "CellType": {
+        "$type": "TinyRichEditor.TinyRichEditorCellType, TinyRichEditor",
+        "UIPermissions": [
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "TabIndex": 3
+      }
+    }
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "3,43,10,3",
+    "1,2,14,27",
+    "16,2,21,32",
+    "16,35,21,16"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "EnableTabIndex": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//79pigdINas6QpgBeMD5HlgH/MU7tzxMQHFzjYQj08+etOMKKDlxb+bVt20fCBcVJvkNDPp/M5xmjd4ywvWutNUHuCR9eEqHy9+5piQPCH0U4FzcrN1Ge/iNtEHJnzuKx5yc9w49aWCSOpSXboWFWsZXt0tU09d5NBOwPIVcAyMtn9RsDIEQZpdgcAQoiFy1w44PbhMmyFmA8pjr1YnwmCitbWzx3SLMiXWYX57hqEitf0Iv+oWv0rP3iWeGrKWaI2S3o1kBQfhWFiHF2w8R6DoadO9kG1VgSOypPMjsOkHfgGSNt4Y1dJPQmN9I8N+9c15EHdNKswQTC5Ig78JVMHb2gXbqyn/X58xDf1x50Agcr5i3sSfRM2q6Q8baSflU8hrTalc7GFYy4m5KlRb5R0G38GBDJPz/El6pHkjbPlcHtaYOH3YU+4jSmpWO1QYcGmGL0mJiBdjpGzQSqey5St5XU8afpDnCJoWLbk042OCf/PEzZmQk8266tej4I1JICnYKqISIDldJu2wYcAkVWyHLn3wL7sXMf9qMtnP1dcE9j6qmmAo/ncORFMBrl0U27HVcRGNd+AYdP6TPL5V31gIWNctUjSW0GwXqt06kFxRwzd68OZGYEz3UQDkszTIoAVVNTLVc25dtZ2SGVG2ygvlHxwgbcXAcbx6NlkPsINArmrch2OBekSfyaTPpi7Yp7ONRNjaMWdiXJwnYtx/t+nR24WHwFskKhjFGMbcESk/2qDIvOOw0aISKeab930VvPdNkaYnoSj9MDBEHi8agib9xg1XztupGQ+0lvY3aVx83S7moFoSrS2dErph7XhoNIE3HGENlcE0r6OZa/Lr91p+S96FluhpdGWVlWXHQuVH5YExxtrRurhHOfdGvxF7XAa/jtexJ8syYzSZEKhjz0gw==|920

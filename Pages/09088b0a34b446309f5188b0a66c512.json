@@ -1,0 +1,117 @@
+{
+  "Rows": {
+    "Count": 12
+  },
+  "Cols": {
+    "Count": 18
+  },
+  "Values": {
+    "3,1": "企业",
+    "6,1": "车型",
+    "9,1": "系列"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Style": 1
+      },
+      "TemplateCellSource": "Fgc-Listview-Selection-State-Column"
+    },
+    "3,4": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "TemplateCellSource": "企业"
+    },
+    "6,4": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "TemplateCellSource": "车型"
+    },
+    "9,4": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "TemplateCellSource": "系别"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Formatter": 0
+      },
+      {
+        "FontFamily": 1,
+        "Formatter": 2
+      },
+      {
+        "FontFamily": 1
+      },
+      {
+        "FontFamily": 1,
+        "Formatter": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "@",
+        "Body",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "3,4": 0,
+      "6,1": 1,
+      "6,2": 2,
+      "6,3": 2,
+      "6,4": 3,
+      "7,1": 2,
+      "7,2": 2,
+      "7,3": 2,
+      "9,1": 1,
+      "9,2": 2,
+      "9,3": 2,
+      "9,4": 3,
+      "10,1": 2,
+      "10,2": 2,
+      "10,3": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "1,1,1,16",
+    "3,4,2,12",
+    "6,4,2,12",
+    "9,4,2,12"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.TemplatePage, ServerDesignerCommon",
+    "ParentPageName": "TabOrder和repeater"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//sUuBUFQ1HXMFyT7yBr85Nwj5DHqjsfN/jGMxDGN1PnQnPqRqGIzf36JACZnmlMqq9l0PgZkFqTt1QIJCvf07vgidbpnt+CicIoOGi3sYjaT+EYtloIm/P2uTrTGExUttek/w28OabxrhnPJpKXJTQvcIYQgnPA5fh3qZLkegdvOCx1A+LuKo9NkomFzG7qoj5A3thuGzdFhkiz/iBu66cDwhrmQQGc9HOfrmzUW5LJEbkONZZUpCTb7ox4CSPuj36Y1gw4TmKpIX58PRChop/cExBiHnwnOqq0vXRTZGHo2bZzB4VXVCH9vLi5iD2XvvIOKSLi9IcMbMSTsDCwj5/Ln08njhLj92BcJzeZV4MEk6tPTN6Opn+/cBT2jR6UcBVMU0wK5cmhopQphy0cZniACSDYrxdhJpMYbwwC0+U4qyBp1lsQ71IGzVaWV6m2GyCVkQvx1C5CRg16WPUi89RBODGBR76Pqe6FDXxUQ4YJ6gs2JsUps5BgUl9zpfnc63kireyh/iNerzyovXqGaC6PJSny7g3e4omDLrgc3B4Fy6HRFKHQwn/xfC+g3jHBM+CZYilPKYt2WmS8S6Dukei1tAy+pyY0i6fZv7xsFt8wKFuVFU7VB/OMt0j3Q4XKQoUZiJr/vZV0f/0HTNvAmsjo8s3oYBJ6mwyDqPjiZB1E+zu0oHLL7QkIhJkJfUAe7O6VKal+GC1wWLqo+ESLEV28fVr/qwZuul6qmPP2H3lnHdOaj15zAtaIbQ5U+jbGI/oxdozfERl2h4FGYbkX4iyg3kuK45w6NrHi5jLzPm3rSH/0t8O8WB8sIlnT/oQXvNN6WCHBwgjtwC9jjEhyvojCRCrg4wA/CYOllNrFFkeQJlVybFOkiig9t6bLEMo8j/6zDzqb1HndYU2wgOXXCfyA==|920

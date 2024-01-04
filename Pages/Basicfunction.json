@@ -1,0 +1,346 @@
+{
+  "Rows": {
+    "Count": 40
+  },
+  "Cols": {
+    "Count": 61
+  },
+  "Values": {
+    "0,2": "多行文本框",
+    "0,14": "Number",
+    "0,27": "Date",
+    "0,42": "Hyperlink",
+    "1,42": "Google.com",
+    "3,2": "文本框",
+    "3,14": "checkbox",
+    "3,27": "Time",
+    "3,42": "Button",
+    "4,42": "Button",
+    "6,2": "Combo",
+    "6,14": "Attachment",
+    "6,42": "Upload Image",
+    "6,50": "Image",
+    "9,2": "User Selector",
+    "12,2": "Reading Textbox",
+    "15,2": "HTML editor",
+    "15,33": "Tiny Editor",
+    "31,2": "Radio group",
+    "31,36": "Current user",
+    "34,2": "checkbox group"
+  },
+  "AttachInfos": {
+    "1,2": {
+      "CellType": {
+        "$type": "Forguncy.MultilineTextBox, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "TabIndex": 2
+      }
+    },
+    "1,14": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "TabIndex": 3
+      }
+    },
+    "1,27": {
+      "CellType": {
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "TabIndex": 1,
+        "DisableTabOrder": true
+      }
+    },
+    "1,42": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "URL": "https://www.google.com"
+          }
+        ],
+        "Text": "Google.com",
+        "ClickMode": 1,
+        "TemplateKey": "_RS_Normal2",
+        "TabIndex": 4
+      }
+    },
+    "4,2": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "TabIndex": 5
+      }
+    },
+    "4,14": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Style": 1,
+        "TabIndex": 6
+      }
+    },
+    "4,27": {
+      "CellType": {
+        "$type": "Forguncy.TimeCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "TabIndex": 7
+      }
+    },
+    "4,42": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowMessageCommand, ServerDesignerCommon",
+            "MessageFormula": "command on button!"
+          }
+        ],
+        "Text": "Button",
+        "TemplateKey": "_RS_Normal_Style2",
+        "TabIndex": 8
+      }
+    },
+    "7,2": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "Items": [
+          {
+            "Value": "Item1",
+            "DisplayValue": "Item1"
+          },
+          {
+            "Value": "Item2",
+            "DisplayValue": "Item2"
+          },
+          {
+            "Value": "Item3",
+            "DisplayValue": "Item3"
+          }
+        ],
+        "TabIndex": 9
+      }
+    },
+    "7,14": {
+      "CellType": {
+        "$type": "Forguncy.AttachmentCelltype, ServerDesignerCommon",
+        "UploadLimit": {
+          "ExtensionFilter": ".jpg, .jpeg, .png, .gif, .bmp, .xlsx, .docx, .doc, .xls, .pdf"
+        },
+        "TemplateKey": "_RS_Normal_Style2",
+        "TabIndex": 17,
+        "DisableTabOrder": true
+      }
+    },
+    "7,42": {
+      "CellType": {
+        "$type": "Forguncy.UploadImageCellType, ServerDesignerCommon",
+        "UploadImageLimit": {
+          "AllowExtensions": ".png, .jpeg, .jpg, .bmp, .gif, .ico"
+        },
+        "ImagePath": "Application/104_upload_4.svg",
+        "BuiltIn": true,
+        "Color": "Accent 1"
+      }
+    },
+    "7,50": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "street.jpg"
+      }
+    },
+    "10,2": {
+      "CellType": {
+        "$type": "Forguncy.UserCellType, ServerDesignerCommon",
+        "Columns": 1,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "TabIndex": 10
+      }
+    },
+    "13,2": {
+      "CellType": {
+        "$type": "Forguncy.ReadingTextCellType, ServerDesignerCommon",
+        "Target": {
+          "SerializeProperty": "=Basicfunction!C2"
+        },
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "TabIndex": 11
+      }
+    },
+    "16,2": {
+      "CellType": {
+        "$type": "HtmlRichEditor.HtmlRichEditor, HtmlRichEditor",
+        "TabIndex": 12
+      }
+    },
+    "16,33": {
+      "CellType": {
+        "$type": "TinyRichEditor.TinyRichEditorCellType, TinyRichEditor",
+        "UIPermissions": [
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "TabIndex": 13
+      }
+    },
+    "32,2": {
+      "CellType": {
+        "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
+        "Style": 1,
+        "Items": [
+          {
+            "Value": "Item1",
+            "DisplayValue": "Item1"
+          },
+          {
+            "Value": "Item2",
+            "DisplayValue": "Item2"
+          },
+          {
+            "Value": "Item3",
+            "DisplayValue": "Item3"
+          }
+        ],
+        "AddOtherItem": true,
+        "TabIndex": 14
+      }
+    },
+    "32,36": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "ShowCircleUserPicture": true,
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        },
+        "TabIndex": 15
+      }
+    },
+    "35,2": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxGroupCellType, ServerDesignerCommon",
+        "Style": 1,
+        "Items": [
+          {
+            "Value": "Item1",
+            "DisplayValue": "Item1"
+          },
+          {
+            "Value": "Item2",
+            "DisplayValue": "Item2"
+          },
+          {
+            "Value": "Item3",
+            "DisplayValue": "Item3"
+          }
+        ],
+        "AddOtherItem": true,
+        "TabIndex": 16
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Formatter": 0,
+        "VerticalAlignment": 1,
+        "WordWrap": true
+      },
+      {
+        "HorizontalAlignment": 2,
+        "Underline": true
+      },
+      {
+        "Formatter": 0
+      },
+      {
+        "Underline": true
+      },
+      {
+        "FontFamily": 3
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "@",
+        "Top",
+        "Center",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "1,2": 0,
+      "1,42": 1,
+      "4,2": 2,
+      "7,14": 3,
+      "13,2": 2,
+      "16,33": 4,
+      "35,2": 4
+    },
+    "SheetStyle": {
+      "FontFamily": 3
+    }
+  },
+  "Spans": [
+    "1,2,2,10",
+    "4,2,2,10",
+    "1,14,2,10",
+    "1,27,2,12",
+    "7,2,2,10",
+    "10,2,2,10",
+    "4,27,2,12",
+    "13,2,2,10",
+    "16,2,15,28",
+    "16,33,15,28",
+    "1,42,2,10",
+    "4,42,2,10",
+    "7,42,6,6",
+    "7,50,6,7",
+    "7,14,8,18",
+    "4,14,2,10",
+    "32,2,2,29",
+    "35,2,2,29",
+    "32,36,4,17"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser",
+            "FGC_Anonymous"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "EnableTabIndex": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//uqsXZocp3a4cRnE1bdd4YbUnyFiLOFEuekat+xf2gigjlNYi95G8gKnoL0Omf8l4gNO/sRwRwE0eUwfofSGva1CK5LSwBkrXPR/V/CF0k32WAfXziOUAvzomQJRLvdiiYM1smTULz666GSB+Z3NTapu2/4ya9kdgPYujU8iSViVY03NtqPgMBIrbyzYUX+Ud3EEN0EnpEKqP7JJvevj8+EqM0R+hcGpuiEO1QrvGTnp6etpBK8OKFFPbzt5E/N/dSzhKkde7dUe2Jsf9c0PIa3reMSYjpbyigdVYI5ebYlbgBkUi0bKlK16J0ke9HUu+pJ9EgGLY5sJivKgaU1fS/y0sQEPLuz/vfc9LIn6u08xb150rt2mOWVS+2cEoawvSUsHk8fiU8kzRe2ygN480JWXW8IWE2oF7pvW0Ml6cxE7qHNBHkwt9S/XYIgBgYfzaEdK/9bPTQFmY4AUgf8k4QhcXOyQiV0d6aDSqr4oPDbBpLimPsSa38ozuc2nm+hZLeYyYolruQkVeRKAEKuKqN2JyHMsrC4rX/jeimrJJTkQ+Bf9vj6+WkajyzZ0BAT6FjnQIq6/Gx3hPBsXtfD1RfV9lc61t+qAwNWe6+TOcB0At2KPQ3/FlLsIOrWl/BX/MHaFRwepDfwXwoOUXUYYG+3/bDeBKRo+TY4k32Xw4a2RxA3cDITbpXm45eCcLNTB0lmos4DmJLJpvVBaQB/saBPdoNAhVACXruTQQ0xEZcfFKCMM748q7Wh24xHyhhuT1xP8rmJ/K/yshq3UNM7GHgdWaeCdeYArsWCQm07eUOCPHIjOTrCJqMiF1Ra6Mtz5M3dp+usyX6x+8d2XP6F16I/Ns7mWEkk4MAQmfXsn+m4SU26+8d4y5iguA6KNFX0vwrp/SzVuqTrwS/tOYzW+QKg==|920
