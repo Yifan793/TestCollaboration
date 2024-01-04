@@ -1,0 +1,280 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      7
+    ],
+    "Count": 8,
+    "DefaultSize": 10.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      }
+    },
+    "Count": 15
+  },
+  "Values": {
+    "5,9": "发起"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "TemplateCellSource": "标题"
+    },
+    "1,9": {
+      "TemplateCellSource": "版本号"
+    },
+    "3,1": {
+      "TemplateCellSource": "描述"
+    },
+    "5,9": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ProcessStartCommand, ServerDesignerCommon",
+            "ProcessDefinitionId": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "='5b5ec9b3fb5d4fd095de4c07414ea5e'!B8"
+            },
+            "StartType": 1,
+            "ReturnResultName": "发起流程结果"
+          },
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "='5b5ec9b3fb5d4fd095de4c07414ea5e'!发起流程结果.TaskExists"
+                      }
+                    ]
+                  },
+                  "value": "1"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "FGC_任务详情_手机版"
+                  }
+                ],
+                "ID": "0d612d7f-9931-4649-8256-fa99d6151001"
+              }
+            ]
+          }
+        ],
+        "Text": "发起",
+        "TemplateKey": "流程样式"
+      }
+    },
+    "7,1": {
+      "TemplateCellSource": "ID"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 13.333333333333332,
+        "FontWeight": 0,
+        "Foreground": 1,
+        "ShrinkToFit": true
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "Foreground": 2,
+        "Formatter": 3,
+        "HorizontalAlignment": 4
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "Foreground": 2,
+        "WordWrap": true
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "Text 1 25",
+        "Background 1 -25",
+        "\"v\"@",
+        "Right",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,9": 1,
+      "3,1": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 5
+    }
+  },
+  "Spans": [
+    "3,1,1,13",
+    "7,1,1,13",
+    "5,9,1,5",
+    "1,1,1,8",
+    "1,9,1,5"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.TemplatePage, ServerDesignerCommon",
+    "ParentPageName": "FGC_流程列表_手机版",
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//XD1hSsTf4YI4QKLso9vwOVpD/7tuvArCVi4h+h+im+zrGmNf1Doy9xAOsaUFLxnH5w0r/eo/4yHaI9W+EIfOSkfdIbN7VvmdZvbB+wwyHrjC+QBMfWCayBGKI5DbpZYWUvNVNCfC4yhpx20KeD8jopsI2QGzsZiJsxWMupGH3Om+nEwvNeCiw37A3XH7h3pFJY/Vq23Urioj492GzIsGoaygQHGF8GV29w5WZIE+DRMAs7mtbJdXlDVJ+l2OFXLYehsYheVMG9+y9XiP5r2ODapcmkLcTeXwYj9lTdr1+GfHTZyYl4KQuTpL8rWIq4IcQcDmCwnimaH2aFzh9FBm7rNpUuxZKTGdQK9C10gIkRaokferxmy+yvkzj7cG5hWGOIZNO/OST2L0zSDdMRSz8QlqkiGXszuAOQ+yrY4fWe6wvClPzTzIjbXFuqlRcC1cxd5YzYskV7cLpejufZhnl0EFKySckTi/1iV+4qIHvrHWWEbZFSs6QODwdEJYrAhgAACfjm8jYQ/xknQjtQp7Nb7dNc3oPeW3jovwevSOzIrM7k/+ucSxwpsYmMuKyvbds9q2IAt4S0JyPD/oEzMd90GAye8rSPG9j6bwTvZ9MrI2unTEM4YQCj+4fst94jGue3SDStbQw3r/Jp/dLQ6WRR+A790IvEYKgzk5IOAobZi12JL0frs4x3FC5Wo4KtFtfRYUve3ieGuWpNqR/+hlHKfD1VNXI1eGU8pP4ZYV3hFSN5alQCHIL6um2ahe4Ckgk7jF06v4tDJKTU7dtaHQGaB6n3O88byma8oKA2lRHVbW2JfEHQiXzQqc0TgIc5613EjMuqogz9LwIuHEmXnqde0OxS++w9qQ7sAcUaAFbWUulBMOQvwWeVZdlkEpckmv4184IZby6EyzIRxf1Q6uyw==|920

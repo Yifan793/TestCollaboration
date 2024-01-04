@@ -1,112 +1,74 @@
 [
   {
-    "ModuleName": "Table/汽车销售信息",
+    "ModuleName": "Table/示例员工表",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
   {
-    "ModuleName": "Table/テーブル1",
+    "ModuleName": "Tables/流程数据表文件夹",
+    "ModuleType": 22
+  },
+  {
+    "ModuleName": "TableProcessView/ACT_RE_PROCDEF_View",
+    "ModuleType": 30,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "TableProcessView/ACT_HI_PROCINST_View",
+    "ModuleType": 30,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "TableProcessView/ACT_HI_TASKINST_View",
+    "ModuleType": 30,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "TableProcessView/ACT_RU_TASK_View",
+    "ModuleType": 30,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "TableProcessView/ACT_HI_COMMENT_View",
+    "ModuleType": 30,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/表1",
     "ModuleType": 7,
     "ExclusiveType": 0
   },
   {
-    "ModuleName": "Pages/Built-in Pages",
-    "ModuleType": 6
+    "ModuleName": "Table/表2",
+    "ModuleType": 7,
+    "ExclusiveType": 0
   },
   {
-    "ModuleName": "Pages/Built-in Pages (Mobile)",
-    "ModuleType": 6
+    "ModuleName": "Table/表3",
+    "ModuleType": 7,
+    "ExclusiveType": 0
   },
   {
-    "ModuleName": "Pages/ビルトイン ページ",
-    "ModuleType": 6
+    "ModuleName": "Table/表4",
+    "ModuleType": 7,
+    "ExclusiveType": 0
   },
   {
-    "ModuleName": "Pages/ビルトイン モバイルページ",
-    "ModuleType": 6
+    "ModuleName": "Table/表5",
+    "ModuleType": 7,
+    "ExclusiveType": 0
   },
   {
-    "ModuleName": "PCPage/Basicfunction",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "MobilePage/手机页面没有TabOrder",
-    "ModuleType": 2
-  },
-  {
-    "ModuleName": "PCPage/ElementUI和TabOrder",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/PluginAndTabOrder",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/CellTypeNotSupportTabKey",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/cellTypeSupportTab",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/TaborderAndContainer",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/TabOrder和TabControl",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/Taborder和TabManager",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/TabOrder和UserControl",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/TabOrder和repeater",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/TabOrder和pivottable",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/TabOrder和processbar",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/subpageandmasterpage",
-    "ModuleType": 1
+    "ModuleName": "Table/表6",
+    "ModuleType": 7,
+    "ExclusiveType": 0
   },
   {
     "ModuleName": "Pages/内建页面",
     "ModuleType": 6
   },
   {
-    "ModuleName": "PCPage/FGC_修改密码",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/FGC_忘记密码",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/FGC_修改用户信息",
-    "ModuleType": 1
-  },
-  {
     "ModuleName": "PCPage/FGC_登录",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/FGC_重置密码发送邮件成功",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/FGC_重置密码",
     "ModuleType": 1
   },
   {
@@ -114,11 +76,23 @@
     "ModuleType": 1
   },
   {
-    "ModuleName": "PCPage/FGC_维护中",
+    "ModuleName": "PCPage/FGC_修改密码",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_连接已断开",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_忘记密码",
     "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/FGC_邮件订阅",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_维护中",
     "ModuleType": 1
   },
   {
@@ -130,7 +104,15 @@
     "ModuleType": 1
   },
   {
-    "ModuleName": "PCPage/FGC_连接已断开",
+    "ModuleName": "PCPage/FGC_修改用户信息",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_重置密码",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_重置密码发送邮件成功",
     "ModuleType": 1
   },
   {
@@ -138,27 +120,7 @@
     "ModuleType": 6
   },
   {
-    "ModuleName": "MobilePage/FGC_修改密码_手机版",
-    "ModuleType": 2
-  },
-  {
-    "ModuleName": "MobilePage/FGC_忘记密码_手机版",
-    "ModuleType": 2
-  },
-  {
-    "ModuleName": "MobilePage/FGC_修改用户信息_手机版",
-    "ModuleType": 2
-  },
-  {
     "ModuleName": "MobilePage/FGC_登录_手机版",
-    "ModuleType": 2
-  },
-  {
-    "ModuleName": "MobilePage/FGC_重置密码发送邮件成功_手机版",
-    "ModuleType": 2
-  },
-  {
-    "ModuleName": "MobilePage/FGC_重置密码_手机版",
     "ModuleType": 2
   },
   {
@@ -166,11 +128,23 @@
     "ModuleType": 2
   },
   {
-    "ModuleName": "MobilePage/FGC_维护中_手机版",
+    "ModuleName": "MobilePage/FGC_修改密码_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_连接已断开_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_忘记密码_手机版",
     "ModuleType": 2
   },
   {
     "ModuleName": "MobilePage/FGC_邮件订阅_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_维护中_手机版",
     "ModuleType": 2
   },
   {
@@ -182,24 +156,129 @@
     "ModuleType": 2
   },
   {
-    "ModuleName": "MobilePage/FGC_连接已断开_手机版",
+    "ModuleName": "MobilePage/FGC_修改用户信息_手机版",
     "ModuleType": 2
   },
   {
-    "ModuleName": "MasterPCPage/Default Master",
-    "ModuleType": 3
+    "ModuleName": "MobilePage/FGC_重置密码发送邮件成功_手机版",
+    "ModuleType": 2
   },
   {
-    "ModuleName": "MasterPCPage/FGC_ユーザーマスターページ",
-    "ModuleType": 3
+    "ModuleName": "MobilePage/FGC_重置密码_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "PCPage/页面1",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/流程页面文件夹",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/FGC_流程列表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_流程追踪",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_审批记录",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_任务详情",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_我发起的",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_我的待办",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_我的已办",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_我的待阅",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_我的已阅",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_我委托的",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/流程页面文件夹_手机版",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "MobilePage/FGC_流程列表_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_流程追踪_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_审批记录_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_任务详情_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_我发起的_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_我的待办_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_我的已办_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_我的待阅_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_我的已阅_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_我委托的_手机版",
+    "ModuleType": 2
   },
   {
     "ModuleName": "MasterPCPage/FGC_母版页",
     "ModuleType": 3
   },
   {
-    "ModuleName": "UserControlPage/カスタムセル型1",
-    "ModuleType": 31
+    "ModuleName": "MasterPages/流程母版页面文件夹",
+    "ModuleType": 24
+  },
+  {
+    "ModuleName": "MasterPCPage/FGC_流程中心",
+    "ModuleType": 3
+  },
+  {
+    "ModuleName": "MasterMobilePage/FGC_流程中心_手机版",
+    "ModuleType": 4
+  },
+  {
+    "ModuleName": "ProcessItem/流程1",
+    "ModuleType": 28,
+    "ExclusiveType": 1
   },
   {
     "ModuleName": "ApplicationSetting",
@@ -210,7 +289,7 @@
     "ModuleType": 9
   },
   {
-    "ModuleName": "image/Built-in Images",
+    "ModuleName": "image/内置图片",
     "ModuleType": 37
   },
   {
@@ -223,6 +302,10 @@
   },
   {
     "ModuleName": "Image/fgc_built-in-page-maintained.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/fgc_built_in_page_conduct.svg",
     "ModuleType": 38
   },
   {
@@ -239,10 +322,6 @@
   },
   {
     "ModuleName": "Image/fgc_logo_light.png",
-    "ModuleType": 38
-  },
-  {
-    "ModuleName": "Image/street.jpg",
     "ModuleType": 38
   },
   {

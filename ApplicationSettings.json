@@ -1,15 +1,19 @@
 {
   "IntegrateWithOtherApplication": {
-    "Password": "fLD82bF*k^3u"
+    "Password": "fQi^2NY*7ZOT"
   },
   "ShareCommandContainers": [],
   "ListviewLoadingIndicatorSettings": {},
   "GlobalProperties": [],
-  "WebSitePort": 58618,
-  "UserServicePort": 14543,
-  "StartDateFiscalYear": 4,
+  "WebSitePort": 10398,
+  "UserServicePort": 22851,
+  "BpmServerSchemaId": "11cd572e-3562-44df-b827-96e1b3cd0117",
+  "ProcessDataConnectionSet": {
+    "ExternalDatabaseId": ""
+  },
+  "StartPage": "",
+  "StartDateFiscalYear": 1,
   "BaseOnStartingMonth": true,
   "CellTypeSpinInfos": [],
-  "SyncUserInfoCacheForBuiltInView": false,
   "AuditingList": {}
 }

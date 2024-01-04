@@ -1,0 +1,305 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 5.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 5.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 5.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 5.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      }
+    },
+    "Count": 9
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      }
+    },
+    "Count": 14
+  },
+  "Values": {
+    "6,1": "备注:",
+    "8,1": "系统："
+  },
+  "AttachInfos": {
+    "0,1": {
+      "TemplateCellSource": "任务名称"
+    },
+    "0,6": {
+      "TemplateCellSource": "创建时间"
+    },
+    "2,1": {
+      "TemplateCellSource": "审批人"
+    },
+    "2,6": {
+      "TemplateCellSource": "操作"
+    },
+    "4,1": {
+      "TemplateCellSource": "任务类型"
+    },
+    "4,6": {
+      "TemplateCellSource": "任务阻塞类型"
+    },
+    "6,1": {
+      "RulesGuidList": [
+        "d308a110-8b25-4c1f-9a4f-9cbc8cd812af"
+      ]
+    },
+    "6,3": {
+      "TemplateCellSource": "备注"
+    },
+    "8,1": {
+      "RulesGuidList": [
+        "5d2b8d96-a2ac-44de-a28c-d103984dcf3c"
+      ]
+    },
+    "8,3": {
+      "TemplateCellSource": "系统备注"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 13.333333333333332,
+        "FontWeight": 0,
+        "Foreground": 1,
+        "ShrinkToFit": true
+      },
+      {
+        "FontFamily": 2,
+        "FontSize": 13.333333333333332,
+        "Foreground": 3,
+        "Formatter": 4,
+        "HorizontalAlignment": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "FontSize": 13.333333333333332,
+        "FontWeight": 0,
+        "Foreground": 6,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null,
+        "ShrinkToFit": true
+      },
+      {
+        "FontFamily": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "FontSize": 13.333333333333332,
+        "Foreground": 7,
+        "HorizontalAlignment": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "FontSize": 13.333333333333332,
+        "Foreground": 7,
+        "Formatter": 8,
+        "HorizontalAlignment": 9
+      },
+      {
+        "FontFamily": 2,
+        "FontSize": 13.333333333333332,
+        "Foreground": 7,
+        "Formatter": 8,
+        "HorizontalAlignment": 5
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "Foreground": 3
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "Foreground": 3,
+        "HorizontalAlignment": 9,
+        "VerticalAlignment": 10,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "Foreground": 3,
+        "HorizontalAlignment": 9,
+        "VerticalAlignment": 10,
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "Accent 1 0",
+        "Body",
+        "Background 1 -25",
+        "yyyy/MM/dd hh:mm:ss",
+        "Right",
+        "Text 1 25",
+        "Accent 2 0",
+        "\"(\"@\")\"",
+        "Left",
+        "Top"
+      ]
+    },
+    "CellStyles": {
+      "0,1": 0,
+      "0,6": 1,
+      "2,1": 2,
+      "2,2": 3,
+      "2,3": 3,
+      "2,4": 3,
+      "2,5": 3,
+      "2,6": 4,
+      "2,8": 3,
+      "2,9": 3,
+      "2,10": 3,
+      "2,11": 3,
+      "2,12": 3,
+      "4,1": 5,
+      "4,6": 6,
+      "6,1": 7,
+      "6,3": 7,
+      "8,1": 8,
+      "8,3": 9
+    },
+    "RowStyles": {
+      "1": 10,
+      "3": 10,
+      "5": 10,
+      "7": 10
+    },
+    "SheetStyle": {
+      "FontFamily": 2,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "0,6,1,7",
+    "8,1,1,2",
+    "8,3,1,10",
+    "6,1,1,2",
+    "6,3,1,10",
+    "2,1,1,5",
+    "2,6,1,7",
+    "4,6,1,7",
+    "4,1,1,5",
+    "0,1,1,5"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.TemplatePage, ServerDesignerCommon",
+    "ParentPageName": "FGC_审批记录_手机版",
+    "IsMobilePage": true,
+    "ConditionFormatRulesCollection": {
+      "Rules": [
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEN('944e2444f41c43e288eb349b9c7e791'!D7)=0"
+          },
+          "GUID": "d308a110-8b25-4c1f-9a4f-9cbc8cd812af",
+          "StyleInfo": {
+            "Underline": null,
+            "Strikethrough": null
+          },
+          "IsInvisible": true
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEN('944e2444f41c43e288eb349b9c7e791'!D9)=0"
+          },
+          "Priority": 1,
+          "GUID": "5d2b8d96-a2ac-44de-a28c-d103984dcf3c",
+          "StyleInfo": {
+            "Underline": null,
+            "Strikethrough": null
+          },
+          "IsInvisible": true
+        }
+      ]
+    }
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//EZ53vUkdISMtx7/761wcoIs/35dJkcykrtba9WVtW28tHUf3Bk03fftWTIzijshnL08G9hoZtGd7qEfKovsEgB50lrj2Rr/GBdp6xC7sjpm+fdvOnpUYk0k4XHdYV6e1hwrUdeO0rpI8eK5NvBdfR9arF5UxjCt2hvev8sZ8gL1rv++bpVnTvSSWn5RAi/dMpJhK2MrLxXzjbhiH+dc9q7afs7Ho3b29pZNJzJ/wEzT2TEflngI8bcPl432joa/ghh5V5zfSzCk98OBjt0Xq6UADyshB8khyJerh1r5Sq835WYOtVzX/wWJTkm1+mRPaeN+AYPD4dA0wMbXSRfP9GLnDufhf9FCBfM0RUM1l7ezn5C0QINHsAIW4PRyMIBwl2qqVCibYeXJv3+kcDjTMAoO7k4sOfmABDx+S5CGQOe93yCb3l9q4hC+bfzP2RYwzd+5gwin/JJtd7AY9grmVy0wR0bMluKWXLl3EOdMlgKJVxg1Daq0xTIN01TWlmRYemhTbZbGigKsSDrIESEVuA+YdFAgBvbm1JwHA1aNF7QuD9YEWSkx/gJBZd3hlnrPtktWjb5fhOAOTR/DEP0OaHGKCuxMvQyyaONITs8mho+XrYhH5RA8wc9wq9nL+YdITkNlDLW6tgInE+XVBbiSBSJxiy3G/oyv4GWamjx6sekgWliuf9dMidGXUHjzFZ0pNudnSKT86z6yObjhwU8LiIRFlZkzlYz7DALVrIJy7H6ExxBpwIRY4Vh0KkGKa/YRRV6trwv/BQfGIdubHHKrmOEYXRlM98e4wLhg/QxDKy28TXchyTGDQcN6z45s3/jEPQAVmOWtbBxg6z03uqpDEjnOSPZ8MjnP9VhBfDo7+JZSRE1M1zt6ZuBseZDzzjVwYZZTDyi76VZpsVJo4YtJDFA==|920
